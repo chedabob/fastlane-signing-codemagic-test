@@ -1,5 +1,8 @@
 workflows:
   hello-world:
+    environment:
+        groups:
+          - aaaa
     name: Hello world workflow
     scripts:
         - bundle install
